@@ -1,0 +1,157 @@
+
+/* Registration css start */
+#registration{
+    @apply container px-2 mx-auto flex justify-between items-center flex-wrap 
+}
+#registration .left{
+    @apply w-[100%] sm:w-[30%] md:w-[40%] 
+}
+#registration .right{
+    @apply w-[100%] sm:w-[40%]  md:w-[50%] md:mt-0 
+}
+input{
+    @apply w-[100%] !p-3 border border-four rounded-md mb-5 outline-none gap-4 
+}
+.btn-v-1{
+    @apply w-full bg-fifth py-2 px-5 border text-white rounded-md mt-4 font-Poppins hover:bg-secondery hover:text-black 
+}
+/* Registration css end */
+
+/* login css start */
+#Login{
+    @apply container px-2 mx-auto flex justify-between items-center flex-wrap 
+}
+#Login .left{
+    @apply w-[100%] sm:w-[37%] md:w-[40%] 
+}
+#Login .right{
+    @apply w-[100%] sm:w-[47%] md:w-[50%] md:mt-0
+}
+input{
+    @apply w-[100%] !p-3 border border-four rounded-md mb-5 outline-none gap-4 
+}
+.btn-v-1{
+    @apply w-full bg-fifth py-2 px-5 border text-white rounded-md mt-4 font-Poppins hover:bg-secondery hover:text-black 
+}
+.btn-v-2{
+    @apply  bg-fifth py-[1px] px-1 border rounded-md mt-1 font-Poppins text-base 
+}
+.btn-v-3{
+    @apply  bg-secondery py-[1px] px-1 border rounded-md mt-1 font-Poppins text-base 
+}
+.btn-v-4{
+    @apply  bg-red-500 py-[1px] px-1 border rounded-md mt-1 font-Poppins text-base font-bold
+}
+.btn-v-5{
+    @apply  bg-blue-950 py-[1px] px-1 text-white border rounded-md mt-1 font-Poppins text-base 
+}
+.btn-v-6{
+    @apply w-full bg-red-500 py-2 px-5 border text-white rounded-md mt-4 font-Poppins hover:bg-secondery hover:text-black 
+}
+/* login css end */
+
+
+/* Header css start */
+#Header{
+    @apply py-3 bg-secondery mb-3
+}
+#Header .container{
+    @apply flex justify-between items-center px-1 
+}
+#Header .container .Profile-Picture{
+    @apply h-[60px] w-[60px] md:h-[70px] md:w-[70px] rounded-full bg-four relative overflow-hidden
+}
+#Header .container .Profile-Picture img{
+    @apply w-full 
+}
+#Header .container .Profile-Picture .Profile-upload{
+    @apply absolute h-full w-full bg-black bg-opacity-[50%] flex justify-center items-center cursor-pointer invisible
+}
+#Header .container .Profile-Picture:hover .Profile-upload{
+    @apply visible
+}
+#Header .container .Profile-Picture .Profile-upload svg{
+    @apply text-black text-2xl 
+}
+.profile-Name{
+    @apply flex justify-between items-center gap-3 font-bold
+}
+.profile-Name h2{
+    @apply   font-medium text-white md:font-bold 
+}
+
+/* Header css end */
+
+/* Home css Start */
+#Home{
+    @apply container mx-auto px-1 2xl:px-[120px] flex justify-between flex-wrap 
+}
+#Home .items{
+    @apply w-full md:w-[48%] lg:w-[32.5%] mb-5 shadow-lg px-2 rounded-sm
+}
+
+/* Home css end */
+
+
+/* userList css Start */
+ .content-item .Title{
+    @apply flex justify-between items-center sticky left-0 top-0 bg-white z-[99]
+ }
+ .content-item .Title h2{
+    @apply text-black text-xl font-bold
+ }
+ .content-item .Title svg{
+    @apply text-black text-2xl 
+ }
+
+ .content-item .user{
+    @apply flex items-center justify-between border-b border-four pb-2 mb-2
+ }
+ .content-item .user .img-and-name{
+    @apply flex items-center gap-3
+ }
+ .content-item .user .img-and-name .img{
+    @apply w-[75px] h-[75px] rounded-full bg-four
+ }
+ .content-item .user .img-and-name h2{
+    @apply text-lg font-Poppins font-medium
+ }
+ .content-item .user .img-and-name p{
+    @apply text-lg font-medium 
+ }
+ .content-item {
+    @apply h-[400px] overflow-y-scroll relative px-2
+ }
+.content-item .button{
+    @apply flex gap-2
+}
+/* userList css end */
+
+
+/* Scroolbar css Start */
+::-webkit-scrollbar{
+    @apply w-[5px]
+}
+::-webkit-scrollbar-thumb{
+    @apply bg-four
+}
+/* Scroolbar css end */
+
+
+/* Profile picture modal upload start */
+.imageUploadModal{
+    @apply absolute top-0 left-0 h-full w-full bg-four z-[999] flex justify-center items-center
+}
+.imageUploadModalcontainer{
+    @apply p-16 rounded-lg bg-white w-[60%]
+}
+.imageUploadModalcontainer h1{
+    @apply text-2xl text-four text-center
+}
+ 
+
+/* Profile picture modal upload end */
+
+
+
+
